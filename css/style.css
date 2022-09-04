@@ -40,4 +40,36 @@ img{
 /* main_content */
 .main_content{
     flex-grow: 1;
+    background: no-repeat url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtbWlzY3RleHR1cmUwMS10b25nLTAxOV8xXzIuanBn.jpg?s=gHpBgfkzpNsXcg1W6zoEOSSXxw-My9sSZwNNDrdTl_A) center/cover;
+}
+.wall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rom{
+    display: flex;
+    border: 20px ridge rgba(172, 116, 13, 1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.3);
+    background: url(https://i.pinimg.com/originals/e1/b3/35/e1b335292c53e85556d7615d7e00c84d.jpg) no-repeat center/cover;
+}
+.tabaqa{
+    width: 250px;
+    height: 500px;
+    border: 20px ridge rgba(172, 116, 13, 0.804);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.3);
+    background:  rgba(0,0,0,0.7);
+    transition:transform 1s ease;
+}
+.tabaqa_left{
+    transform-origin:left center ;
+}
+.tabaqa_right{
+    transform-origin:right center ;
+}
+.rom:hover .tabaqa_left{
+    transform:perspective(2000px) rotateY(-125deg);
+}
+.rom:hover .tabaqa_right{
+    transform:perspective(2000px) rotateY(125deg);
 }
