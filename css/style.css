@@ -82,7 +82,7 @@ img{
     .tabaqa{
         width: 150px;
         height: 250px;
-        border: 10px;
+        border: 10px ridge rgba(172, 116, 13, 0.804);
     }
 
 }
