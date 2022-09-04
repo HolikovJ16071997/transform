@@ -40,7 +40,7 @@ img{
 /* main_content */
 .main_content{
     flex-grow: 1;
-    background: no-repeat url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtbWlzY3RleHR1cmUwMS10b25nLTAxOV8xXzIuanBn.jpg?s=gHpBgfkzpNsXcg1W6zoEOSSXxw-My9sSZwNNDrdTl_A) center/cover;
+    background:  repeat url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtbWlzY3RleHR1cmUwMS10b25nLTAxOV8xXzIuanBn.jpg?s=gHpBgfkzpNsXcg1W6zoEOSSXxw-My9sSZwNNDrdTl_A) center/cover;
 }
 .wall{
     display: flex;
